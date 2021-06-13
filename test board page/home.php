@@ -6,8 +6,8 @@
   <title>test board page</title>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./header.css">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./boardpageheader.css">
+<link rel="stylesheet" href="./home.css">
 </head>
 <body>
 	<div class="header">
