@@ -12,8 +12,9 @@
 <body>
 	<div class="header">
 		<img class="logo" src="logo.png">
-			<h2 class="headertext"> Spark Academy of Global City, Inc.</h2>
-				<p class="headertext"> 4th st. GHQ Signal Village, Brgy. Katuparan, Taguig, 1632 Metro Manila</p>
+		<h2 class="headertext"> Spark Academy of Global City, Inc.</h2>
+		<p class="headertext"> 4th st. GHQ Signal Village, Brgy. Katuparan, Taguig, 1632 Metro Manila</p>
+		<p class="logout"><a href="https://www.google.com">Log out</a></p> 
 	</div>
 <div class="drag-container">
 	<ul class="drag-list">
