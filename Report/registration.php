@@ -2,7 +2,8 @@
 <html>
 <head>
     <title> Registration Form</title>
-    <link rel="stylesheet" type="text/css" href="registration.css">
+	<link rel="icon" href="pics\logo.png">
+    <link rel="stylesheet" type="text/css" href="css\registration.css">
 </head>
 <body>
     <div class="registration-form">
