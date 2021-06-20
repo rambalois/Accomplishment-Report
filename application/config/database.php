@@ -78,9 +78,9 @@ $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'us-cdbr-east-04.cleardb.com',
+	'username' => 'b9eb715b76e035',
+	'password' => 'a85e3a36',
 	'database' => 'school_record',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
