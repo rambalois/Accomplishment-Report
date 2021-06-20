@@ -30,7 +30,7 @@ var createOptions = (function() {
 	var dragOptions = document.querySelectorAll('.drag-options');
 	
 	// these strings are used for the checkbox labels
-	var options = ['Research', 'Strategy', 'Inspiration', 'Execution'];
+	var options = ['option1', 'option2', 'option3', 'option4'];
 	
 	// create the checkbox and labels here, just to keep the html clean. append the <label> to '.drag-options'
 	function create() {

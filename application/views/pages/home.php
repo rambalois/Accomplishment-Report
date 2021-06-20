@@ -6,7 +6,6 @@
   <title>test board page</title>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="assets/css/boardpageheader.css">
 <link rel="stylesheet" href="assets/css/home.css">
 </head>
 <body>
@@ -24,6 +23,7 @@
 				<li class="drag-item"></li>
 				<li class="drag-item"></li>
 			</ul>
+			<button onclick="additemtolist1()">ADD ITEM</button>
 		</li>
 		<li class="drag-column drag-column-in-progress">
 			<span class="drag-column-header">
@@ -34,8 +34,8 @@
 			<ul class="drag-inner-list" id="2">
 				<li class="drag-item"></li>
 				<li class="drag-item"></li>
-				<li class="drag-item"></li>
 			</ul>
+			<button onclick="additemtolist2()">ADD ITEM</button>
 		</li>
 		<li class="drag-column drag-column-needs-review">
 			<span class="drag-column-header">
@@ -44,11 +44,10 @@
 			</span>
 			<div class="drag-options" id="options3"></div>
 			<ul class="drag-inner-list" id="3">
-				<li class="drag-item">hello world</li>
-				<li class="drag-item"></li>
 				<li class="drag-item"></li>
 				<li class="drag-item"></li>
 			</ul>
+			<button onclick="additemtolist3()">ADD ITEM</button>
 		</li>
 		<li class="drag-column drag-column-approved">
 			<span class="drag-column-header">
@@ -60,11 +59,11 @@
 				<li class="drag-item"></li>
 				<li class="drag-item"></li>
 			</ul>
+			<button onclick="additemtolist4()">ADD ITEM</button>
 		</li>
 	</ul>
 </div>
 <!-- partial -->
-  <script src='assets/js/dragula.js'></script><script  src="assets/js/script.js"></script>
-
+  <script src='assets/js/dragula.js'></script><script  src="assets/js/home.js""></script><script src="assets/js/additem.js"></script>
 </body>
 </html>
