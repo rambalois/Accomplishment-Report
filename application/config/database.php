@@ -83,6 +83,7 @@ $db['default'] = array(
 	'password' => 'a85e3a36',
 	'database' => 'school_record',
 	'dbdriver' => 'mysqli',
+	'dbport' => '3306',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
