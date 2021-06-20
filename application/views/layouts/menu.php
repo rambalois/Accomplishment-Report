@@ -1,51 +1,43 @@
-<body>
-<div class="container-fluid">
-	<div class="row" >
-		<img style="margin-left: 1em;" class="nav-logo" src="<?=base_url()?>assets/img/logo.png">
-		<div class="col col-md-8 ">
-			<div class="div-nav-heading" >
-				<span class="nav-heading-top">
-					Spark Academy of Global City, Inc.
-				</span>
-			</div>
-			<div class="div-nav-heading" >
-				<span class="nav-title">
-					<b>School Record System</b>
-				</span>
-			</div>
-			
-		</div>
-	</div>
+<head>
+<style type="text/css">
+	div.header {
+	width: 100%;
+	height: 130px;
+	background-color: rgb(157 204 55);
+	color: white;
+}
 
-	<div class="row" >
-		<div class="col col-md-8"> 
-			
-		</div>	
-	</div>
-	
+img.logo {
+    width: 116px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+h2.headertext{
+	font-family: Segoe UI;
+	margin: -95px 0px 0px 150px;
+}
+
+p.headertext{
+	margin-top: 0px;
+	margin-left: 150px;
+}
+
+p.logout{
+	margin: -55px 0px 0px 90%;
+	font-size: 20px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+</style>	
+</head>
+<div class="header">
+	<img class="logo" src="assets/img/logo.png">
+	<h2 class="headertext"> Spark Academy of Global City, Inc.</h2>
+	<p class="headertext"> 4th st. GHQ Signal Village, Brgy. Katuparan, Taguig, 1632 Metro Manila</p>
+	<p class="logout"><a href="https://www.google.com">Log out</a></p> 
 </div>
-<nav class="navbar navbar-expand-sm navbar-dark bg-custom">
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbarsExample03">
-		<ul class="navbar-nav mr-auto">
-			<li id="home" class="nav-item">
-				<a class="nav-link nav-color" href="<?=base_url()?>home">Home <span class="sr-only">(current)</span></a>
-			</li>
-
-
-		<ul class="navbar-nav">	
-			<li class="nav-item dropdown">
-				<a class="nav-link nav-color dropdown-toggle nav-user" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<?php echo $this->session->userdata('first_name') . ' ' . $this->session->userdata('last_name'); ?>
-				</a>
-				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="<?=base_url()?>logout">Sign Out</a>
-					<!-- <div class="dropdown-divider"></div> -->
-				</div>
-			</li>
-		</ul>
-	</div>
-</nav>
