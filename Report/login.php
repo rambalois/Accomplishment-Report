@@ -4,9 +4,11 @@
 		<title>Login</title>
 		<link rel="icon" href="pics\logo.png">
 		<link rel="stylesheet" href="css\Report.css">
+		<link rel="stylesheet" href="css\login.css">
 	</head>
 	<body>
 	<?php include 'header.php';?>
+	<?php include 'LoginForm.php';?>
 		<div class="banner">
     	<img class="logo" src="logo.png" width="100" height="100">
     	<h2 class="header"> Spark Academy of Global City, Inc.</h2>
