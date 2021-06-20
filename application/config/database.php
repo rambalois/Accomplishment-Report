@@ -78,12 +78,11 @@ $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'us-cdbr-east-04.cleardb.com',
-	'username' => 'b9eb715b76e035',
-	'password' => 'a85e3a36',
-	'database' => 'heroku_c7e0c16f0f9c244',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'school_record',
 	'dbdriver' => 'mysqli',
-	'dbport' => '3306',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
