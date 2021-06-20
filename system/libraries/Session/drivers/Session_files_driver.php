@@ -129,7 +129,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 * @param	string	$name		Session cookie name
 	 * @return	bool
 	 */
-	public function open($save_path, $name)
+		public function open($save_path, $name)
 	{
 		if ( ! is_dir($save_path))
 		{
@@ -152,7 +152,6 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 		return $this->_success;
 	}
-
 	// ------------------------------------------------------------------------
 
 	/**
