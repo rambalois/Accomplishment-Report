@@ -14,8 +14,8 @@
 				<div class="drag-options" id="options1"></div>
 				
 				<ul class="drag-inner-list" id="1">
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><form><input type="file" id="myfile" name="myfile"></li>
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
 				</ul>
 				<button onclick="addItemToList('1')">ADD ITEM</button>
 			</li>
@@ -26,8 +26,8 @@
 				</span>
 				<div class="drag-options" id="options2"></div>
 				<ul class="drag-inner-list" id="2">
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
 				</ul>
 				<button onclick="addItemToList('2')">ADD ITEM</button>
 			</li>
@@ -38,8 +38,8 @@
 				</span>
 				<div class="drag-options" id="options3"></div>
 				<ul class="drag-inner-list" id="3">
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
 				</ul>
 				<button onclick="addItemToList('3')">ADD ITEM</button>
 			</li>
@@ -50,8 +50,8 @@
 				</span>
 				<div class="drag-options" id="options4"></div>
 				<ul class="drag-inner-list" id="4">
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
-					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea><input type="file" id="myfile" name="myfile"></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
+					<li ><textarea oncontextmenu="return false;" class="drag-item drag-textarea" ></textarea></li>
 				</ul>
 				<button onclick="addItemToList('4')">ADD ITEM</button>
 			</li>
