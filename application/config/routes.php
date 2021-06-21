@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'homeController';
 $route['home'] = 'homeController/home';
+$route['home_student'] = 'homeController/homeStudent';
 $route['login'] = 'homeController/login';
 $route['sign_in'] = 'homeController/sign_in';
 $route['registration'] = 'homeController/registration';
