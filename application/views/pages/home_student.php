@@ -17,7 +17,6 @@
 					<li class="drag-item"></li>
 					<li class="drag-item"></li>
 				</ul>
-				<button onclick="addItemToListAsStudent('1')">ADD ITEM</button>
 			</li>
 			<li class="drag-column drag-column-in-progress">
 				<span class="drag-column-header">
@@ -29,7 +28,6 @@
 					<li class="drag-item"></li>
 					<li class="drag-item"></li>
 				</ul>
-				<button onclick="addItemToListAsStudent('2')">ADD ITEM</button>
 			</li>
 			<li class="drag-column drag-column-needs-review">
 				<span class="drag-column-header">
@@ -41,7 +39,6 @@
 					<li class="drag-item"></li>
 					<li class="drag-item"></li>
 				</ul>
-				<button onclick="addItemToListAsStudent('3')">ADD ITEM</button>
 			</li>
 			<li class="drag-column drag-column-approved">
 				<span class="drag-column-header">
@@ -53,7 +50,6 @@
 					<li class="drag-item"></li>
 					<li class="drag-item"></li>
 				</ul>
-				<button onclick="addItemToListAsStudent('4')">ADD ITEM</button>
 			</li>
 		</ul>
 	</div>
