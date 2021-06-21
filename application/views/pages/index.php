@@ -13,7 +13,7 @@
         <title>Login</title>
     </head>
     <body>
-    <div class="banner">
+    <div class="banner" style="background-color: rgb(157 204 55);">
     	<img class="logo" src="<?=base_url()?>assets/img/logo.png" width="100" height="100">
     	<h2 class="header"> Spark Academy of Global City, Inc.</h2>
     	<p class="header"> 4th st. GHQ Signal Village, Brgy. Katuparan, Taguig, 1632 Metro Manila</p>
