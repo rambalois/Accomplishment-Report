@@ -4,7 +4,6 @@
 	width: 100%;
 	height: 130px;
 	background-color: rgb(157 204 55);
-	color: white;
 }
 
 img.logo {
@@ -30,7 +29,7 @@ p.logout{
 }
 
 a{
-	color:white;
+	color:black;
 	text-decoration: none;
 }
 </style>	
