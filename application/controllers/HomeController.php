@@ -77,7 +77,16 @@ class HomeController extends CI_Controller {
 	{
 		$data['view'] =  "home";
 		$data['head'] = array(
-			"title"         =>  "Home | Chemical Waste Management System",
+			"title"         =>  "Home for Teacher | School Record System",
+			);
+		$this->load->view('layouts/template', $data);
+	}
+
+	public function homeStudent()
+	{
+		$data['view'] =  "home_student";
+		$data['head'] = array(
+			"title"         =>  "Home for Student | School Record System",
 			);
 		$this->load->view('layouts/template', $data);
 	}
@@ -93,7 +102,12 @@ class HomeController extends CI_Controller {
             $user_info = $this->Global_model->get_data_with_query('users', '*', 'user_id ="' . $login[0]->user_id . '"');
             $this->session->set_userdata((array) ($login[0]));
             
-            redirect(base_url().'home');
+            if( $this->session->userdata('role_id') == 1 ) {
+				redirect(base_url().'home');
+            }else {
+            	redirect(base_url().'home_student');
+            }
+            
         } else {
             $this->load->view('pages/login_error');
         }
