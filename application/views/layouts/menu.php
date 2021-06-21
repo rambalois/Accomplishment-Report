@@ -1,4 +1,5 @@
 <head>
+	<link rel="shortcut icon" type="image/jpg" href="assets/img/favicon.ico"/>
 <style type="text/css">
 	div.header {
 	width: 100%;
