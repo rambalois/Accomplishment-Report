@@ -39,5 +39,5 @@ a{
 	<img class="logo" src="assets/img/logo.png">
 	<h2 class="headertext"> Spark Academy of Global City, Inc.</h2>
 	<p class="headertext"> 4th st. GHQ Signal Village, Brgy. Katuparan, Taguig, 1632 Metro Manila</p>
-	<p class="logout"><a href="application/views/pages/index.php">Log out</a></p> 
+	<p class="logout"><a href="index.php">Log out</a></p> 
 </div>
