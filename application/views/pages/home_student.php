@@ -14,8 +14,8 @@
 				<div class="drag-options" id="options1"></div>
 				
 				<ul class="drag-inner-list" id="1">
-					<li class="drag-item"></li>
-					<li class="drag-item"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
 				</ul>
 			</li>
 			<li class="drag-column drag-column-in-progress">
@@ -25,8 +25,8 @@
 				</span>
 				<div class="drag-options" id="options2"></div>
 				<ul class="drag-inner-list" id="2">
-					<li class="drag-item"></li>
-					<li class="drag-item"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
 				</ul>
 			</li>
 			<li class="drag-column drag-column-needs-review">
@@ -36,8 +36,8 @@
 				</span>
 				<div class="drag-options" id="options3"></div>
 				<ul class="drag-inner-list" id="3">
-					<li class="drag-item"></li>
-					<li class="drag-item"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
 				</ul>
 			</li>
 			<li class="drag-column drag-column-approved">
@@ -47,8 +47,8 @@
 				</span>
 				<div class="drag-options" id="options4"></div>
 				<ul class="drag-inner-list" id="4">
-					<li class="drag-item"></li>
-					<li class="drag-item"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
+					<li class="drag-item"><input style="margin-top:65px;margin-left:10px;" type="file" id="myFile" name="filename"></li>
 				</ul>
 			</li>
 		</ul>
